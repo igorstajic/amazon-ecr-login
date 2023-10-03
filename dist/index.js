@@ -39,7 +39,7 @@ const REGISTRY_TYPES = {
 
 function configureProxy(httpProxy) {
   const proxyFromEnv = process.env.HTTP_PROXY || process.env.http_proxy;
-
+  return null;
   if (httpProxy || proxyFromEnv) {
     let proxyToSet;
 
